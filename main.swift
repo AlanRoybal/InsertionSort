@@ -1,13 +1,10 @@
+import Foundation
 
+var words = [String]()
 
-// ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩  ⇩
-// DO NOT ALTER THE TEXT BETWEEN THESE LINES =========={M{E{R{L{I{N{1}N}I}L}R}E}M}=====================================
-let unsortedIntegers = ["cc", "rr", "bb", "aa"]
-// DO NOT ALTER THE TEXT BETWEEN THESE LINES =========={M{E{R{L{I{N{1}N}I}L}R}E}M}=====================================
-// ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧  ⇧
-
-
-// Add your code below:
+while let line = readLine() {
+    words.append(line)
+}
 
 @discardableResult func insertionSort(_ array: [String]) -> [String] {
     var a = array
@@ -30,4 +27,4 @@ let unsortedIntegers = ["cc", "rr", "bb", "aa"]
     }
     return a
 }
-insertionSort(unsortedIntegers)
+insertionSort(words)
