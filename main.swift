@@ -25,4 +25,4 @@ while let line = readLine() {
     }
     return a
 }
-insertionSort(words)
+print(insertionSort(words))
