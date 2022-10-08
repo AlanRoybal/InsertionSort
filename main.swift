@@ -10,7 +10,6 @@ while let line = readLine() {
     var a = array
     var pass = 0
     var totalswaps = 0
-    print("Pass: 0, Swaps: 0/0, Array: \(a)")
     for x in 1..<a.count {
         pass += 1
         var y = x
@@ -23,7 +22,6 @@ while let line = readLine() {
             swaps += 1
         }
         a[y] = temp
-        print("Pass: \(pass), Swaps: \(swaps)/\(totalswaps), Array: \(a)")
     }
     return a
 }
